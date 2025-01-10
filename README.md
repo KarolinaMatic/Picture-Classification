@@ -22,3 +22,6 @@ Dieses Projekt implementiert einen Chatbot, der spezifische Fragen zu den SIA-No
    numpy
    pandas
    textwrap
+
+## Allgemeines 
+Die SIA-Normen werden ausschliesslich an lizensierte Personen weitergegeben werden und dürfen nur im Kontext dieses Hochschulprojekts genutzt werden.
