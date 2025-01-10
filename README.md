@@ -1,44 +1,24 @@
-# SIA-Normen Chatbot mit RAG
-
+# Bildklassifikationsprojekt mit CIFAR-10
 ## Beschreibung
-Dieses Projekt implementiert einen Chatbot, der spezifische Fragen zu den SIA-Normen beantworten kann. Der Chatbot kombiniert ein vortrainiertes Sprachmodell (z. B. GPT) mit einer Retrieval-Augmented-Generation (RAG)-Pipeline. Dabei werden relevante Informationen aus PDF-Dokumenten zu den SIA-Normen extrahiert, segmentiert und in einer Vektor-Datenbank (FAISS) indexiert.
+Dieses Projekt implementiert ein Convolutional Neural Network (CNN), um Bilder aus dem CIFAR-10-Datensatz zu klassifizieren. Es demonstriert grundlegende Techniken des maschinellen Lernens und der Bildverarbeitung, einschließlich Datenexploration, Modelltraining und Evaluation.
 
 ## Features
-- Beantwortet spezifische Fragen zu den SIA-Normen.
-- Nutzt RAG (Retrieval-Augmented-Generation), um präzise Antworten zu geben.
-- Implementiert eine Vektor-Datenbank mit FAISS für schnelle und relevante Abfragen.
-- Unterstützt längere Konversationen mit kontextbewussten Antworten.
+Klassifiziert Bilder in 10 Kategorien (z. B. Flugzeuge, Autos, Katzen, Hunde, etc.).
+Visualisiert Beispielbilder aus dem Datensatz.
+Nutzt ein einfaches CNN für die Klassifikation.
+Zeigt Trainings- und Validierungsgenauigkeit mit Diagrammen.
+Speichert das trainierte Modell für zukünftige Nutzung.
 
 ## Installation
-1. **Voraussetzungen**:
-   - Python 3.8 oder höher.
-   - Folgende Python-Bibliotheken: `faiss-cpu`, `openai`, `numpy`, `pandas`, `textwrap`.
+Voraussetzungen:
 
-2. **Bibliotheken installieren**:
-   ```bash
-   pip install
-   faiss-cpu
-   openai
-   numpy
-   pandas
-   textwrap
+Python 3.7 oder höher.
+Bibliotheken: tensorflow, matplotlib, numpy.
 
-## Allgemeines 
-Die SIA-Normen werden ausschliesslich an lizensierte Personen weitergegeben werden und dürfen nur im Kontext dieses Hochschulprojekts genutzt werden.
-
-## Nutzung des Projekts mit SIA-Normen
-
-### Hinweise zur Verwendung
-Dieses Projekt verwendet SIA-Normen, die urheberrechtlich geschützt sind. Der Zugriff auf die Normen ist nur lizenzierten Personen gestattet. Bitte stellen Sie sicher, dass Sie die Lizenz besitzen, bevor Sie die Dateien verwenden.
-
-### Bereitstellung der SIA-Normen
-Falls Sie berechtigt sind, die SIA-Normen zu nutzen, kontaktieren Sie mich unter karolina.matic@stud.hslu.ch . Ich werde die entsprechenden Dateien bereitstellen. Alternativ können Sie die Dateien von Ihrem lokalen Gerät in das Notebook hochladen.
-
-### Schritte zur Nutzung
-1. Fordern Sie die SIA-Normen an oder speichern Sie diese lokal auf Ihrem Rechner.
-2. Laden Sie die PDFs in das Notebook hoch, wenn Sie dazu aufgefordert werden.
-3. Führen Sie das Notebook aus, um die Analyse durchzuführen.
-
-### Rechtlicher Hinweis
-Die Nutzung der SIA-Normen ist nur im Rahmen dieses Hochschulprojekts gestattet und darf nicht für andere Zwecke verwendet werden.
-
+## Nutzung des Projekts
+Schritte zur Ausführung
+Klone das Repository oder lade die Dateien herunter.
+Öffne das Jupyter Notebook oder lade es in Google Colab hoch.
+Führe die Zellen der Reihe nach aus, um das Modell zu trainieren und zu evaluieren.
+Rechtlicher Hinweis
+Die Nutzung des Codes ist nur für Bildungszwecke gestattet.
